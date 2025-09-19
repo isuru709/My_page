@@ -44,8 +44,15 @@ let activeCategory = 'all';
 const ALL_CARDS = grid ? Array.from(grid.querySelectorAll('article.card')) : [];
 
 // Center scrolling helper (scroll an element to the vertical middle of viewport)
+// Center scrolling helper (scroll an element to the vertical middle of viewport)
 function scrollToCenter(el) {
   if (!el) return;
+
+  // Do nothing on phones (keep page scroll natural on mobile)
+  if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) {
+    return;
+  }
+
   const rect = el.getBoundingClientRect();
   const scrollY = window.scrollY || document.documentElement.scrollTop;
   const targetTop = rect.top + scrollY - (window.innerHeight / 2 - rect.height / 2);
