@@ -44,15 +44,8 @@ let activeCategory = 'all';
 const ALL_CARDS = grid ? Array.from(grid.querySelectorAll('article.card')) : [];
 
 // Center scrolling helper (scroll an element to the vertical middle of viewport)
-// Center scrolling helper (scroll an element to the vertical middle of viewport)
 function scrollToCenter(el) {
   if (!el) return;
-
-  // Do nothing on phones (keep page scroll natural on mobile)
-  if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) {
-    return;
-  }
-
   const rect = el.getBoundingClientRect();
   const scrollY = window.scrollY || document.documentElement.scrollTop;
   const targetTop = rect.top + scrollY - (window.innerHeight / 2 - rect.height / 2);
@@ -385,6 +378,7 @@ applyFiltersNoBlink();
   const neutron = { a: 420, b: 290, speed: 0.0042, size: 5.5*devicePixelRatio, angle: 0 };
 
   function drawOrbit(a,b){
+    const ctx = canvas.getContext('2d');
     ctx.save();
     ctx.translate(cx, cy);
     const theme = htmlEl.getAttribute('data-theme') || 'blackhole';
@@ -405,6 +399,7 @@ applyFiltersNoBlink();
   }
 
   function drawStars(){
+    const ctx = canvas.getContext('2d');
     for(const s of stars){
       s.a += s.tw;
       let pulse = 0.55 + 0.45*Math.sin(s.a*60);
@@ -424,6 +419,7 @@ applyFiltersNoBlink();
   }
 
   function drawConstellations(){
+    const ctx = canvas.getContext('2d');
     if(!constellations.length) return;
     ctx.save();
     ctx.globalCompositeOperation = 'lighter';
@@ -444,6 +440,7 @@ applyFiltersNoBlink();
   }
 
   function drawComets(){
+    const ctx = canvas.getContext('2d');
     if(cometTimer-- <= 0) spawnComet();
 
     const theme = htmlEl.getAttribute('data-theme') || 'blackhole';
@@ -487,6 +484,7 @@ applyFiltersNoBlink();
   }
 
   function drawCenter(){
+    const ctx = canvas.getContext('2d');
     ctx.save();
     ctx.translate(cx, cy);
 
@@ -555,6 +553,7 @@ applyFiltersNoBlink();
   }
 
   function drawPlanets(){
+    const ctx = canvas.getContext('2d');
     const parallaxX = (pointer.x-0.5)*6*devicePixelRatio;
     const parallaxY = (pointer.y-0.5)*6*devicePixelRatio;
 
@@ -594,6 +593,7 @@ applyFiltersNoBlink();
   }
 
   function drawNeutronStar(){
+    const ctx = canvas.getContext('2d');
     const A = neutron.a*devicePixelRatio;
     const B = neutron.b*devicePixelRatio;
 
@@ -647,6 +647,7 @@ applyFiltersNoBlink();
   }
 
   function frame(){
+    const ctx = canvas.getContext('2d');
     ctx.clearRect(0,0,w,h);
     drawStars();
     drawConstellations();

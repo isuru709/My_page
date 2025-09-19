@@ -392,3 +392,28 @@ html[data-theme="nebula"] .cat-btn[aria-pressed="true"]::after{
 @media (prefers-reduced-motion: reduce){
   .shine::before{ animation: none !important; }
 }
+
+/* MOBILE-ONLY FIXES (do not affect desktop) */
+@media (max-width: 767px){
+  /* Make the category panel non-sticky on phones and allow page scroll to pass through */
+  .sticky-col{
+    position: static !important;
+    top: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    overscroll-behavior: auto !important;
+    scrollbar-gutter: auto !important;
+    z-index: auto !important;
+  }
+
+  /* Ensure catalog grid stacks and nothing overlays the category panel */
+  #catalog .grid{
+    align-items: stretch;
+  }
+
+  /* Avoid any accidental stacking overflows on small screens */
+  #grid{
+    position: relative;
+    z-index: 0;
+  }
+}
