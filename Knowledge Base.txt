@@ -1,0 +1,280 @@
+# IsuruHub Knowledge Base (Apps, Projects, FAQs)
+
+Last updated: 2025-09-20
+
+This knowledge base teaches the assistant about IsuruHub, the official catalog of apps and projects by Isuru Dananjaya Sampath. It covers product overviews, platforms, versions, official download links, and common questions. Use this information to answer user questions accurately and safely.
+
+--------------------------------------------------------------------------------
+SECTION 1 — BRAND OVERVIEW
+--------------------------------------------------------------------------------
+- Brand: IsuruHub
+- Tagline: Galaxy‑grade apps for Windows • Android • Web
+- Focus areas: Media processing, downloaders, productivity tools, and database projects
+- UX style: Liquid glass UI, glassmorphism, tilt cards, canvas cosmos background
+- Reliability: Malware‑free releases; frequent updates and quick fixes
+- Official site entry points (from the page):
+  - Main catalog sections: Catalog, Features, Contact
+  - Categories: Windows, Android, iOS/Web, Websites, Database Projects, Developing, All
+
+--------------------------------------------------------------------------------
+SECTION 2 — OFFICIAL LINKS
+--------------------------------------------------------------------------------
+Primary
+- Catalog page: The AI agent is embedded on the main IsuruHub site.
+- Contact form: Available on the site; messages stored in Firestore (no public inbox).
+- Email: sampathwid.23@uom.lk
+- GitHub: https://github.com/isuru709
+- Facebook: https://www.facebook.com/Isuru907
+- LinkedIn: https://linkedin.com/in/isuru-sampath-563095245
+
+Uni Downloader (web/iOS)
+- Web app: https://uni.isuruhub.site:8443
+
+Database projects
+- Hospital Management (DB): https://github.com/isuru709/Hospital-Management-MY
+- New HMS (DB): https://github.com/isuru709/New_HMS
+
+Note: For Windows and Android installers, official downloads are hosted on MediaFire and linked below per product.
+
+--------------------------------------------------------------------------------
+SECTION 3 — PRODUCT CATALOG (Apps & Projects)
+--------------------------------------------------------------------------------
+The following entries reflect the items shown on the IsuruHub catalog page. Provide the exact links and version notes as listed.
+
+1) Isuru’s VC Pro
+- Platform: Windows
+- Version: v1.6.3
+- Summary: High-compression Video Converter + Universal Downloader + All-in-One Player.
+- Official download: https://www.mediafire.com/file/cwmf0lf1uqnrf41/Isuru_VC.exe/file
+- Keywords: video converter, downloader, player, VC Pro, Windows
+
+2) Shutdown Scheduler
+- Platform: Windows
+- Version: v1.0.0
+- Summary: Schedule shutdown, sleep, restart. Hibernate/Lock coming soon.
+- Official download: https://www.mediafire.com/file/dk156teldmm4w4d/Shutdown-Sheduler.exe/file
+- Keywords: shutdown, scheduler, power, Windows
+
+3) Uni‑Video Downloader (Windows)
+- Platform: Windows
+- Version: v1.1.0
+- Summary: Download any video/audio in any quality—unified and fast.
+- Official download (ZIP): https://www.mediafire.com/file/plsepqeqxjlvdyn/Uni-Downloader.zip/file
+- Keywords: universal downloader, video, audio, Windows
+
+4) Uni‑Video Downloader (Android)
+- Platform: Android
+- Version: v1.1.0
+- Summary: Download videos and audio on the go, optimized for Android.
+- Official download (APK): https://www.mediafire.com/file/6adzy8am8iay2bq/uni_downloader.apk/file
+- Keywords: downloader, video, audio, Android, APK
+
+5) Uni‑Video Downloader (iOS/Web)
+- Platform: iOS/Web (browser)
+- Version: v1.1.0
+- Summary: Use it in the browser—no installation needed.
+- Official link: https://uni.isuruhub.site:8443
+- Keywords: web downloader, online, iOS, browser-based
+
+6) MP4 Toolnix
+- Platform: Windows
+- Version: v1.1.0
+- Summary: Demux/remux any video to MP4; add subtitles instantly.
+- Official download: https://www.mediafire.com/file/9gwacb5zh4y0x9t/MP4_Toolnix_Pro.exe/file
+- Keywords: mp4, toolnix, remux, demux, subtitles, Windows
+
+7) TorrentFlow
+- Platform: Windows
+- Version shown: v1.37.0
+- Status: Coming soon (under development). No download yet.
+- Summary: No‑limit torrent downloader (Direct links supported).
+- Keywords: torrent, downloader, direct links, Windows, developing
+
+8) Uni Downloader Site (Website)
+- Platform: Website (browser)
+- Status: Live (same service endpoint as #5)
+- Official link: https://uni.isuruhub.site:8443
+- Summary: Fast, clean web interface for unified media downloads.
+- Keywords: website, web app, uni downloader
+
+9) Hospital Management (DB)
+- Platform: Database project
+- Summary: Schema & flows for hospital operations and appointments.
+- Official repo: https://github.com/isuru709/Hospital-Management-MY
+- Keywords: hospital management system, DB schema, MySQL
+
+10) New HMS (DB)
+- Platform: Database project
+- Summary: Modular hospital DB project with improved relations.
+- Official repo: https://github.com/isuru709/New_HMS
+- Keywords: new hms, database, MySQL
+
+11) Project Nova (Developing)
+- Status: Developing (alpha)
+- Summary: Next‑gen media processing engine with GPU acceleration.
+- Keywords: media pipeline, GPU, developing
+
+12) Project X (Developing)
+- Status: Developing (pre‑alpha)
+- Summary: Unified downloader core with modular protocol adapters.
+- Keywords: downloader core, modular protocols, developing
+
+13) Project Orion (Developing)
+- Status: Developing (design)
+- Summary: Glass UI toolkit with live animations and low CPU usage.
+- Keywords: UI toolkit, glassmorphism, animations, developing
+
+14) Project Flux (Developing)
+- Status: Developing (R&D)
+- Summary: Real‑time project sync layer with offline‑first design.
+- Keywords: realtime sync, offline-first, developing
+
+--------------------------------------------------------------------------------
+SECTION 4 — FEATURES HIGHLIGHTS
+--------------------------------------------------------------------------------
+- Performance Tuned: Optimized rendering, throttled animations, smooth IO
+- Security First: Safe downloads and transparent repositories
+- Liquid Glass UI: Glassmorphism, liquid buttons, tilt cards
+- Simple Filtering: Category panel + instant in‑page filtering
+- Frequent Updates: Continuous improvements and quick fixes
+- Malware‑Free: Releases are scanned and verified
+
+--------------------------------------------------------------------------------
+SECTION 5 — CATEGORIES AND FILTERING
+--------------------------------------------------------------------------------
+Available categories on the catalog:
+- All (groups items by category)
+- Windows
+- Android
+- iOS/Web
+- Websites
+- Database Projects
+- Developing
+
+Filtering behaviors:
+- Category selection narrows the visible cards by platform/type.
+- Search box filters by name or tags (keywords added per card).
+- “Reset” button clears filters; “Toggle Animations” can reduce motion.
+- On mobile, categories appear above the grid; on desktop, categories are a sticky left panel.
+
+--------------------------------------------------------------------------------
+SECTION 6 — FREQUENTLY ASKED QUESTIONS (FAQ)
+--------------------------------------------------------------------------------
+Q: Where can I download Isuru’s VC Pro for Windows?
+A: From the official MediaFire link: https://www.mediafire.com/file/cwmf0lf1uqnrf41/Isuru_VC.exe/file
+
+Q: Does Uni‑Video Downloader support Windows, Android, and iOS/Web?
+A: Yes. Windows (ZIP): https://www.mediafire.com/file/plsepqeqxjlvdyn/Uni-Downloader.zip/file — Android (APK): https://www.mediafire.com/file/6adzy8am8iay2bq/uni_downloader.apk/file — iOS/Web: https://uni.isuruhub.site:8443
+
+Q: Is there a browser-only downloader with no installation?
+A: Yes. Use the Uni‑Video Downloader (iOS/Web) at https://uni.isuruhub.site:8443
+
+Q: How do I schedule automatic shutdowns on Windows?
+A: Use Shutdown Scheduler (Windows) v1.0.0 from https://www.mediafire.com/file/dk156teldmm4w4d/Shutdown-Sheduler.exe/file
+
+Q: Can I demux/remux videos to MP4 and add subtitles?
+A: Yes. Use MP4 Toolnix (Windows) v1.1.0: https://www.mediafire.com/file/9gwacb5zh4y0x9t/MP4_Toolnix_Pro.exe/file
+
+Q: Is TorrentFlow available to download?
+A: Not yet. TorrentFlow (Windows) is under development (coming soon). Version shown is v1.37.0 but no public build is linked.
+
+Q: Where can I view the Hospital Management database projects?
+A: Hospital Management (DB): https://github.com/isuru709/Hospital-Management-MY — New HMS (DB): https://github.com/isuru709/New_HMS
+
+Q: Are the downloads safe?
+A: Yes. IsuruHub emphasizes malware‑free releases. Always download from the official links listed above.
+
+Q: How can I contact the developer?
+A: Email: sampathwid.23@uom.lk — GitHub: https://github.com/isuru709 — Facebook: https://www.facebook.com/Isuru907 — LinkedIn: https://linkedin.com/in/isuru-sampath-563095245
+
+Q: Do mobile and desktop layouts behave differently?
+A: Yes. Desktop shows a sticky left category panel. Mobile transforms the layout so categories appear above the grid and the page scrolls naturally.
+
+Q: How do I use the in‑page filters effectively?
+A: Select a category to narrow results, use the search box for names/tags (e.g., “Windows”, “Android”, “video”), and click “Reset” to clear filters.
+
+Q: What platforms do IsuruHub apps target?
+A: Windows, Android, and Web/iOS (browser). Database projects are platform-agnostic schemas and flows.
+
+Q: What is the typical update cadence?
+A: The site mentions frequent updates and quick fixes. Version numbers per app are listed above.
+
+Q: Is there a rating or social proof?
+A: The hero section highlights a 4.9/5 rating and 50K+ downloads for the ecosystem.
+
+--------------------------------------------------------------------------------
+SECTION 7 — DOWNLOAD & TROUBLESHOOTING TIPS
+--------------------------------------------------------------------------------
+- Always use the official links above.
+- Windows downloads may be .exe or .zip. If zipped, extract before running.
+- Android downloads are .apk; ensure your device allows installs from trusted sources.
+- Web/iOS version runs in the browser at https://uni.isuruhub.site:8443 (no installation).
+- If a link fails, try again later or ask for an updated link. Some hosts (e.g., MediaFire) can rate limit.
+- If antivirus flags an installer, verify the hash if provided (or re-download) and ensure you obtained it from the official link.
+
+--------------------------------------------------------------------------------
+SECTION 8 — PAYMENTS / SUPPORT
+--------------------------------------------------------------------------------
+Publicly listed bank details (from the site):
+- Bank of Ceylon (BOC)
+  - Account No: 4550879
+  - Name: ISURU DANANJAYA SAMPATH (SAMPATH W.I.D)
+  - University Email: sampathwid.23@uom.lk
+- Commercial Bank
+  - Account No: 8012687219
+  - Name: ISURU DANANJAYA SAMPATH (SAMPATH W.I.D)
+  - University Email: sampathwid.23@uom.lk
+Note: Share sensitive payment information only if users explicitly request it.
+
+--------------------------------------------------------------------------------
+SECTION 9 — ASSISTANT RESPONSE GUIDELINES
+--------------------------------------------------------------------------------
+- Provide official download links exactly as listed in this KB.
+- Never provide cracked, mirrored, or unofficial links.
+- If a product is “Coming soon” or “Developing,” state that a public build isn’t available yet.
+- Offer platform-specific guidance (Windows/Android/Web) when users ask for downloads.
+- If users ask about a product not listed here, say you don’t have information yet and offer to pass feedback to the developer via the contact form or email.
+- Keep answers concise; include the product name, platform, version (if provided), and the official link.
+- If the user asks for help choosing a tool:
+  - Video conversion + playback + universal download: Isuru’s VC Pro (Windows)
+  - Scheduling power actions: Shutdown Scheduler (Windows)
+  - General downloading on desktop: Uni‑Video Downloader (Windows)
+  - Mobile/on‑the‑go downloading: Uni‑Video Downloader (Android)
+  - No-install/browser use: Uni‑Video Downloader (iOS/Web)
+  - MP4 remux/demux + subtitles: MP4 Toolnix (Windows)
+  - Database schemas: Hospital Management / New HMS (GitHub)
+- Safety: Remind users to scan installers and allow only trusted sources. Clarify that IsuruHub aims to be malware‑free.
+
+--------------------------------------------------------------------------------
+SECTION 10 — QUICK ANSWER SNIPPETS (INTENT MAPPING)
+--------------------------------------------------------------------------------
+Use these as ready-to-serve responses:
+
+- “Download VC Pro”
+  → Isuru’s VC Pro (Windows) v1.6.3 — Download: https://www.mediafire.com/file/cwmf0lf1uqnrf41/Isuru_VC.exe/file
+
+- “Windows downloader”
+  → Uni‑Video Downloader (Windows) v1.1.0 — Download (ZIP): https://www.mediafire.com/file/plsepqeqxjlvdyn/Uni-Downloader.zip/file
+
+- “Android downloader APK”
+  → Uni‑Video Downloader (Android) v1.1.0 — Download (APK): https://www.mediafire.com/file/6adzy8am8iay2bq/uni_downloader.apk/file
+
+- “iOS downloader” / “web downloader”
+  → Uni‑Video Downloader (iOS/Web) — Use in browser: https://uni.isuruhub.site:8443
+
+- “Schedule shutdown”
+  → Shutdown Scheduler (Windows) v1.0.0 — Download: https://www.mediafire.com/file/dk156teldmm4w4d/Shutdown-Sheduler.exe/file
+
+- “MP4 remux demux”
+  → MP4 Toolnix (Windows) v1.1.0 — Download: https://www.mediafire.com/file/9gwacb5zh4y0x9t/MP4_Toolnix_Pro.exe/file
+
+- “TorrentFlow download”
+  → TorrentFlow is under development (coming soon). No public download yet.
+
+- “Hospital DB project”
+  → Hospital Management (DB): https://github.com/isuru709/Hospital-Management-MY
+  → New HMS (DB): https://github.com/isuru709/New_HMS
+
+--------------------------------------------------------------------------------
+END OF KNOWLEDGE BASE
+--------------------------------------------------------------------------------
